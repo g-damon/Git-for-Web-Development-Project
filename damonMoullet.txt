@@ -1,6 +1,5 @@
 My codepen - https://codepen.io/damnmullet/pen/mdedaqo?editors=1100
 
-
     1. What is Semantic HTML?
           Markup that communicates meaning of the content
 
