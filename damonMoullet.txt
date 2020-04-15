@@ -1,93 +1,139 @@
 My codepen - https://codepen.io/damnmullet/pen/mdedaqo?editors=1100
 
-
-
     1. What is Semantic HTML?
           Markup that communicates meaning of the content
+
     2. What is HTML used for?
           Used to place and separate content on web documents
+
     3. What is an attribute and where do we put it?
             adds additional functionality to HTML. Goes in beginning HTML tag
+
     4. What is the h1 tag used for? How many times should I use it on a page?
     h1 is used for the most important words on the page (usually title). It is only used once per page
+
     5. Name two tags that have required attributes
     anchor and image tags
+
     6. What do we put in the head of our HTML document?
     metadata, links to external documents, page title
+
     7. What is an id?
-    id is a unique (only 1 per page) tag used for css and navigation
+    id is a 1 per page specific tag used for css and navigation purposes.
+
     8. What elements can I add an id to?
     any
+
     9. How many times can I use the same id on a page?
     1
+
     10. What is a class?
     class is an umbrella selector used to style many elements
+
     11. What elements can I add a class to?
     any
+
     12. How many times can I use the same class on a page?
     infinite
+
     13. How do I get my link to open in a new tab?
     add target="_blank"
+
     14. What is the alt attribute used for?
     alt is description of image for screen readers or broken src file replacement
+
     15. How do I reference an id?
     #
+
     16. What is the difference between a section and a div
-    section is semantic
+    section is semantic markup
+
     17. What is CSS used for?
-    as of CSS3, it is used for both style and functionality
+    as of CSS3, it is used for both styling and functionality
+
     18. How to we select an element? Example - every h2 on the page
-    h2 {}
+    h2 {
+          CSS properties;
+    }
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-    classes can style many elements whilst id styles and/or selects a specific element. use a class to style all buttons on a page; use an id to link one of those buttons to a unique anchor tag
+
+    Classes target many elements whereas an id styles and/or selects a specific element. An example of this would be to use a class styling the nav buttons and then use an id to link one of those buttons to an anchor tag.
+
     20. How do we select classes in CSS?
     .class
+
     21. How do we select a p element with a single class of “human””?
     .human or p.human
+
     22. What is a parent child selector? When would this be useful?
     to target certain elements only in one part of a page
     23. How do you select all links within a div with the class of sidebar?
     .sidebar a
     24. What is a pseudo selector?
-    :hover, :active, :focus are examples of a modification of normal selector when their state changes
+    :hover, :active, :focus are common examples of modifying the normal selector when their state changes.
+
     25. What do we use the change the spacing between lines?
     line height
+
     26. What do we use to change the spacing between letters?
     kerning
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
     text-transform
+
     28. How do I add a 1px border around my div that is dotted and black?
     border: 1px #000000 dotted
+
     29. How do I select everything on the page?
     body
+
     30. How do I write a comment in CSS?
     /* comment */
+
     31. How do I find out what file I am in, when I am using the command line?
     /
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
     ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this?
-    rm makes deleted items not recoverable
+
+    rm, because deleted items are not recoverable when using this.
+
     34. Why should I use version control?
-    tracks document and allows to revert back to a point in history
+    Tracks the document and allows to revert back to a point in the history.
+
     35. How often should I commit to github?
     at least once every 30min
+
     36. What is the command we would use to push our repo up to github?
     push
+
     37. Walk me through Lambda's git flow.
-    I don't follow???
+    fork the repo;
+    add the TL as collaborator;
+    open bash and cd to desired location;
+    clone repo to machine (git clone url);
+    cd into newly cloned repo;
+    create a new branch (git checkout -b 'your-name');
+    push back to the cloud (git push -u origin your-name)
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
     inline elements stack horizontally; block stacks vertically
+
     2. What happens when an element is positioned absolutely?
-     positioned by nearest ancestor not viewport
+     It is positioned according to the nearest ancestor, not by the viewport
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
-    inline-block
+    display: inline-block;
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     block - p, h1, div
     inline - span, img
     inline-block - button
+
     5. In your own words, explain the box model. What is the fix for the box model?
-    an invisible box around elements consisting of the element, margin, padding, and border. the fix is: box-sizing: border-box.
+    An invisible box around each and every element that consists of the element, margin, padding, and the border. The fix for this is box-sizing: border-box; .
